@@ -21,12 +21,13 @@ public class MainActivity extends AppCompatActivity {
         binding.buttonLevel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Toast.makeText(getBaseContext(), "nivel 4 completo ", Toast.LENGTH_SHORT).show();
             }
         });
         binding.buttonUnlocked.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(getBaseContext(), "boton desbloqueado ", Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -54,8 +55,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         binding.buttonPlane.setOnClickListener(new View.OnClickListener() {
-
-
             @Override
             public void onClick(View v) {
                 Toast.makeText(getBaseContext(), "modo avion desactivado", Toast.LENGTH_SHORT).show();
