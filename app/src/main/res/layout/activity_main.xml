@@ -8,8 +8,9 @@
 
     <Button
         android:id="@+id/buttonPlane"
-        android:layout_width="224dp"
-        android:layout_height="73dp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
         android:backgroundTint="#815ee3"
         android:text="Turn off flight mode"
         android:textsize="18dp"
@@ -20,8 +21,8 @@
 
     <Button
         android:id="@+id/buttonPicture"
-        android:layout_width="204dp"
-        android:layout_height="91dp"
+        android:layout_width="224dp"
+        android:layout_height="55dp"
         android:layout_marginBottom="224dp"
         android:backgroundTint="#C9C9C9"
         android:text="Picture saved to gallery"
@@ -33,37 +34,40 @@
 
     <Button
         android:id="@+id/buttonUnlocked"
-        android:layout_width="133dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="44dp"
+        android:layout_width="166dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="#484D50"
         android:text="Unlocked level 5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintHorizontal_bias="0.952"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonUpdatting" />
 
     <Button
         android:id="@+id/buttonUpdatting"
-        android:layout_width="189dp"
-        android:layout_height="72dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="24dp"
         android:backgroundTint="#D9525E"
         android:text="Updatting profile"
+        android:textSize="18sp"
         app:icon="@drawable/baseline_sync_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonLevel"
-        android:layout_width="145dp"
-        android:layout_height="79dp"
-        android:layout_marginBottom="88dp"
+        android:layout_width="205dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="132dp"
         android:backgroundTint="#5F94D9"
         android:text="Level 4 completed"
+        app:cornerRadius="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -71,13 +75,13 @@
         android:layout_width="164dp"
         android:layout_height="65dp"
         android:layout_marginStart="274dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="68dp"
         android:backgroundTint="#48A55F"
         android:text="Music paused"
         app:cornerRadius="5dp"
         app:icon="@drawable/baseline_pause_circle_24"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="@+id/buttonLevel"
         app:layout_constraintTop_toTopOf="@+id/buttonUnlocked" />
 
