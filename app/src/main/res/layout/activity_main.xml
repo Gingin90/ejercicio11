@@ -59,10 +59,12 @@
 
     <Button
         android:id="@+id/buttonLevel"
-        android:layout_width="205dp"
-        android:layout_height="61dp"
+        android:layout_width="245dp"
+        android:layout_height="52dp"
         android:layout_marginBottom="132dp"
         android:backgroundTint="#5F94D9"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        android:drawableRight="@android:drawable/btn_star_big_on"
         android:text="Level 4 completed"
         app:cornerRadius="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
